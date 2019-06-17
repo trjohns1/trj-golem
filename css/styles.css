@@ -1,0 +1,199 @@
+/*
+trj_golem CSS Stylesheet
+
+This stylesheet provides CSS for the trj_golem plugin.
+
+Developers should include a selector for every class and id used in the plugin,
+even if there are no styles defined for that selector. This allows styling to 
+occur without searching through the code for instances of class and id.
+
+The first html element created by the plugin should always be:
+	<div id="trj_golem">
+and the last be
+	</div> <!-- id="trj_golem" -->
+This ensures that the entire plugin contents are in the plugin div container
+and can be selected properly.
+*/
+
+
+
+/* ---------- PLUGIN CSS CONTAINER ---------- */
+.trj_golem_frame {
+}
+
+/* ---------- COMMON CSS ---------- */
+
+/* Page error message */
+.trj_golem_error {
+	color: red;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 2px;
+	border-color: #000000;
+	padding: 5px;
+	background: #dddddd;
+}
+
+
+/* Table that displays form elements */
+.trj_golem_form_table {
+	background: #f0f0f0;
+}
+
+/* Form element label text */
+.trj_golem_form_element_label_text {
+	margin-bottom: .5em;
+}
+
+/* Form element helper text */
+.trj_golem_form_element_helper_text {
+	font-size: .9em;
+	font-style: italic;
+	margin: 0;
+}
+
+/* form element error message */
+.trj_golem_form_element_error_message {
+	color: red;
+	font-style: italic;
+	font-size: .8em;
+	margin: 0;
+}
+
+
+/* ---------- BUTTONS ---------- */
+
+input.trj_golem_button_primary {
+	background: #027c0a;
+	border-radius: 5px;
+}
+
+button.trj_golem_button_secondary {
+	background: #5b0b0b;
+	border-radius: 5px;
+}
+
+/* ---------- INPUT ELEMENTS ---------- */
+/* form element input control input*/
+input.trj_golem_form_element_input {
+	color: #e3e3e5;
+	background: #425b84;
+	border-radius: 2px;
+}
+
+/* form element input control select*/
+select.trj_golem_form_element_input {
+	color: #e3e3e5;
+	background: #425b84;
+	border-radius: 2px;
+}
+
+/* form element input control select option*/
+option.trj_golem_form_element_select_option {
+	font-style: italic;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+
+/* ---------- LIST QUERY RESULTS TABLE ---------- */
+
+/* table that lists query results */
+.trj_golem_list_results_table {
+	background-color: #f0f0f0;
+	margin-top: 2em;
+}
+
+/* alternating row colors */
+.trj_golem_list_results_table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* header row */
+.trj_golem_list_results_table th {
+   background-color: #425b84;
+	color: #ffffff;
+}
+
+/* links */
+.trj_golem_list_results_table a {
+	color: #09357c;
+}
+
+
+
+/* ---------- Pagination ---------- */
+/* classes are set in pagination.php */
+
+/* container for the pagination widget */
+/* use to control centering */
+.trj_golem_pagination_container {
+text-align: center;
+}
+
+/* the pagination widget */
+.trj_golem_pagination_widget {
+	background-color: #d5dae2;
+	padding: .5em;
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	border-color: #666666;
+}
+
+/* links */
+.trj_golem_pagination_widget a {
+	color: #09357c;
+}
+
+/* the current page */
+.trj_golem_pagination_current {
+	font-size: .7em;
+	font-weight: bold;
+	padding: 5px;
+}
+
+/* first page button */
+.trj_golem_pagination_control_first {
+	color: #09357c;
+	font-weight: bold;
+	font-size: 1em;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	border-color: #666666;
+	padding: 5px;
+	background: #ffffff;
+	margin-right: .3em;
+}
+
+/* last page button */
+.trj_golem_pagination_control_last {
+	color: #09357c;
+	font-weight: bold;
+	font-size: 1em;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	border-color: #666666;
+	padding: 5px;
+	background: #ffffff;
+	margin-left: .3em;
+}
+
+/* any page button */
+.trj_golem_pagination_control_page a {
+	color: #09357c;
+	font-size: .7em;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	border-color: #666666;
+	padding: 5px;
+	background: #ffffff;
+}
+
+
+
