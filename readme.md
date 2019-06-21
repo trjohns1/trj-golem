@@ -1,7 +1,7 @@
 Golem
 =====
 
-## Golem is a plugin template that can be used to create other WordPress plugins. It is a fully functional plugin that can be modified to create a database-driven web application. It has the following features:
+## Golem is a WordPress plugin template that can be used to create other WordPress plugins. It is a fully functional plugin that can be modified to create a database-driven web application. It has the following features:
 
 * Enables the creation of database-driven web applications.
 * Full installation and clean uninstallation.
